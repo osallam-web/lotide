@@ -12,8 +12,6 @@ const bestTVShowsByGenre = {
   drama:  "The Wire"
 };
 
-console.log ();
-
 const findKeyByValue = function(object, value) {
   for (property in object) {
     if (object[property] === value) {
