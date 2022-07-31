@@ -28,11 +28,12 @@ const without = function(source, itemsToRemove) {
   newArr =[];
   for (i=0; i < source.length; i++) {
     if (source[i] !== itemsToRemove[i]) {
-      newArr[i] = source[i];
+      newArr.push(source[i]);
     }
   }
   console.log(newArr);
 };
+
 
 // TEST CODE
 
