@@ -24,3 +24,5 @@ const countLetters = function(letters) {
 };
 //assertEqual(countLetters("Test"), { t: 2, e: 1, s: 1 }); 
 console.log(countLetters("Test Phrase"));
+
+module.exports = countLetters;

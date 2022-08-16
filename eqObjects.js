@@ -55,3 +55,5 @@ eqObjects(ab, abc); // => false
 
 assertEqual(eqObjects(ab, ba), true); // => true
 assertEqual(eqObjects(ab, abc), false); // => false
+
+module.exports = eqObjects;

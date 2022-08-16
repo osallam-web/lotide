@@ -46,3 +46,5 @@ assertArraysEqual(map(words, word => word[0]), ["ground", "control", "to", "majo
 assertArraysEqual(map(words, word => word[0]), ["g", "c", "t", "m", "t"]);
 assertArraysEqual(map(words, words => words), ["ground", "control", "to", "major", "tom"]);
 assertArraysEqual(map(words, words => words[2]), ["ground", "control", "to", "major", "tom"]);
+
+module.exports = map;
