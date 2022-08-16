@@ -1,4 +1,5 @@
 // FUNCTION IMPLEMENTATION
+const assertEqual = require('./assertEqual');
 const assertArraysEqual = function(actual, expected) {
   if (actual.length !== expected.length) {
     return console.log(`🛑 🛑 🛑 Assertion Failed: ${actual} !== ${expected}`);
@@ -22,3 +23,5 @@ assertArraysEqual(["1", "2", "3"], ["1", "2", 3]); // => false
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]); // => true
 assertArraysEqual([1, 2, 3], [1, 2, 4]); // => false
+
+module.exports = assertArraysEqual;
