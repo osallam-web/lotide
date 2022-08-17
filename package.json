@@ -1,5 +1,5 @@
 {
-  "name": "osallam/lotide.",
+  "name": "@osallam/lotide",
   "version": "1.0.0",
   "description": "",
   "main": "assertArraysEqual.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/osallam-web/lotide.git"
   },
-  "author": "",
+  "author": "Omar Sallam <omar.sallam@gmail.com> (https://github.com/osallam-web)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/osallam-web/lotide/issues"
